@@ -1,0 +1,309 @@
+body {
+  background-image: url("/static/pictures/earth2.jpg");
+  width: 100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  font-family: Helvetica, sans-serif;
+}
+
+main {
+font-family: 'Carrois Gothic', sans-serif;;
+color: #FFF;
+}
+
+h1 {
+font-size: 60px;
+padding-top: 90px;
+padding-bottom: 100px;
+}
+
+#homepage_title {
+  padding-bottom: 0px;
+}
+
+.navbar-brand {
+font-size: 35px;
+}
+
+.nav-link {
+font-size: 18px;
+}
+
+
+
+/* IMAGE OF THE DAY */
+#date {
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+#author {
+padding-top: 10px;
+}
+/* IMAGE OF THE DAY */
+
+
+
+#launches {
+background-color: rgb(17, 17, 17);
+border-radius: 30px;
+}
+
+#title {
+padding-bottom: 260px;
+}
+
+.carousel-inner {
+width: 900px;
+text-align: center;
+padding: 20px;
+}
+
+#carouselExampleIndicators {
+background-color: rgba(12, 12, 12, 0.95);
+border-radius: 17px;
+width: 1100px;
+height: 200px;
+}
+
+#carousel_title {
+  text-decoration: underline;
+  color: #FFF;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+
+/* ASTRONAUTS */
+#profile_pic {
+width: 100%;
+border-radius: 10px;
+}
+#astronaut_rows {
+padding-bottom: 50px;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+#name {
+text-decoration: underline;
+text-align: center;
+}
+/* ASTRONAUTS */
+
+/* LAUNCHES */
+#image_rocket {
+width: 100%;
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+}
+
+#rocket_name {
+text-decoration: none;
+text-align: center;
+padding-bottom: 10px;
+}
+
+#company_pad {
+text-decoration: none;
+text-align: center;
+}
+
+#launches {
+margin-bottom: 30px;
+display: inline-block;
+position: relative;
+}
+
+#date {
+text-align: center;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+
+#countdown {
+text-align: center;
+padding-top: 40px;
+}
+
+h1#countdown {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.countdown_items {
+padding-top: auto;
+}
+
+@media  screen and (max-width:600px) {
+  #image_rocket {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .carousel-inner {
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #title {
+    padding-bottom: 50px;
+  }
+
+
+  #carouselExampleIndicators {
+    background-color: rgba(12, 12, 12, 0.8);
+    border-radius: 17px;
+    width: auto;
+    height: auto;
+  }
+
+  html,body{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    overflow-x:hidden;
+    font-family: Helvetica, sans-serif;
+  }
+
+  #fixedbg{
+    background:url("/static/pictures/earth2.jpg") no-repeat left top;
+    height:100%;
+    position:fixed;
+    width:100%;
+    z-index:-1;
+    top:0;
+  }
+  h1 {
+    padding-top: 10px;
+  }
+
+
+}
+
+.button_test {
+display: inline-block;
+position: relative;
+padding: 6px 18px;
+color: #FFF;
+text-decoration: none;
+text-transform: uppercase;
+border-radius: 10px;
+font-size: 85%;
+letter-spacing: 2px;
+background: linear-gradient(90deg, #333333, #b6b6b6);
+position: absolute;
+top: 3px;
+left: 19px;
+max-width: 89.5%;
+}
+
+.success {
+  text-align: center;
+  padding: 6px 18px;
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, #006108, #24b300);
+  max-width: 89.5%;
+  margin-bottom: 7%;
+  }
+
+.go {
+  text-align: center;
+  padding: 6px 18px;
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  max-width: 89.5%;
+  background: linear-gradient(90deg, #0e008f, #0469dd);
+  margin-bottom: 7%;
+  }
+
+.tbd {
+  text-align: center;
+  padding: 6px 18px;
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 10px;
+  letter-spacing: 2px;
+  max-width: 89.5%;
+  background: linear-gradient(90deg, #b10000, #e77b00);
+  margin-bottom: 7%;
+  }
+
+#status_column {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+/* LAUNCHES */
+
+/* REGISTER */
+
+
+
+.button_test:hover, .go:hover, .success:hover, .tbd:hover {
+text-decoration: none;
+color: #FFF;
+opacity: 100%;
+}
+
+/* REGISTER */
+
+
+.images {
+border-radius: 50%;
+max-width: 100%;
+height: auto;
+}
+
+#containerbody {
+padding-bottom: 30px;
+}
+
+footer {
+color:#FFF;
+padding-top: 150px;
+}
+
+.navbar-item {
+font-size: 100px !important;
+}
+
+
+
+/* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+     #map {
+      height: 857px;
+    }
+
+    /* Optional: Makes the sample page fill the window. */
+    html,
+    body {
+      height: 100%;
+      margin: 10;
+      padding: 10;
+    }
+
+main .form-control
+{
+  /* Center form controls */
+  display: inline-block;
+
+  /* Override Bootstrap's 100% width for form controls */
+  width: auto;
+}

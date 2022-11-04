@@ -1,0 +1,70 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block main %}
+
+<h1 id ='homepage_title'>Welcome to Xandaria,</h1>
+<h3 id="title">a website made for space lovers. (I am currently redoing the optimization of this website as it has a few displaying issues on the Incoming space launches page 
+  and the Astronauts page.)</h3>
+
+
+
+<center>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="/map"><h5 id = 'carousel_title'>ISS Live tracker:</h5></a>
+          <p>This is the main feature of the website, a map tracking the live position of the International Space Station (ISS). 
+            After a few seconds to let the data load, you will be able to see the path the ISS took in the past 45 minutes
+           and the path it will take in the next 45 minutes.</p>
+      </div>
+      <div class="carousel-item">
+        <a href="/launches"><h5 id = 'carousel_title'>Incoming space launches:</h5></a>
+          <p>This page will display a countdown adapted to your timezone of the 10 next space launches. You can also learn about each specific
+            launch by hovering over the description button if you are on a computer or by clicking the button if you are on anything else.</p>
+      </div>
+      <div class="carousel-item">
+        <a href="/image"><h5 id = 'carousel_title'>The Astronomy picture of the day:</h5></a>
+          <p>On this page you will be able to find the picture of the day and its description written by an astronomer. The content will update
+            itself everyday through the NASA API, make sure to come every day to learn something new!
+          </p>
+      </div>
+      <div class="carousel-item">
+        <a href="astronauts"><h5 id = 'carousel_title'>Astronauts:</h5></a>
+          <p>You can on this page see a list of the astronauts currently in mission on the ISS containing each
+            of their name, their picture and also a quick description.
+          </p>
+      </div>
+    </div>
+    <br><br>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+
+</center>
+
+
+<footer class="small text-center">
+  <center>&#169 Copyright - Xandaria | Developed by <a href="https://www.linkedin.com/in/raphaël-b">Raphaël. B</a></center>
+</footer>
+{% endblock %}
+

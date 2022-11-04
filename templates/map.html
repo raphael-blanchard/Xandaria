@@ -1,0 +1,36 @@
+
+
+
+{% extends "layout.html" %}
+
+{% block title %}
+    Map
+{% endblock %}
+
+{% block head %}
+<title>Simple Map</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<link rel="stylesheet" type="text/css" href="/static/styles.css" />
+
+{% endblock %}
+
+
+
+{% block body %}
+
+  <script src="/static/index.js"></script>
+  <div id="map"></div>
+
+      <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=your_own_api_key_here"
+        async
+      ></script>
+
+
+
+{% endblock %}
+
+<footer class="small text-center text-muted" id="footer_map">
+  <center>&#169 Copyright | <a href="https://www.linkedin.com/in/raphaël-b">Raphaël. B</a></center>
+</footer>
