@@ -23,6 +23,7 @@ it is a map tracking in real time the movements of the ISS. It is also drawing t
 
 The astronomy picture of the day:
 Displaying NASA's APOD and its description.
+
 Example (taken on 04-11-22):
 
 ![APODdemo](https://user-images.githubusercontent.com/86181145/199943262-a04c59ab-6635-4c19-b9b6-116c11336f5b.PNG)
